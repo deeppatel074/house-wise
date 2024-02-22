@@ -1,8 +1,13 @@
-import logo from "./logo.svg";
 import "./App.css";
+import { LoginSignup } from "./Components/LoginSignup/LoginSignup";
 
 function App() {
-  return <div className="App"></div>;
+  return (
+    <div className="App">
+      {/* Now LoginSignup is imported*/}
+      <LoginSignup />
+    </div>
+  );
 }
 
 export default App;
